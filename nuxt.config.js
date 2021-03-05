@@ -11,11 +11,13 @@ export default {
       { hid: 'description', name: 'description', content: '' }
     ],
     script: [
+      {src: '/index.js'},
       {src: 'https://cdn.bootcss.com/jquery/2.1.1/jquery.min.js'},
       {src: 'https://cdn.bootcss.com/twitter-bootstrap/3.3.7/js/bootstrap.min.js'}
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
+      { rel: 'stylesheet', href: '/index.css' },
       { rel: 'stylesheet', href: 'https://cdn.bootcss.com/twitter-bootstrap/3.3.7/css/bootstrap.min.css' }
     ]
   },
