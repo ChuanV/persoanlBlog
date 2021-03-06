@@ -150,13 +150,13 @@ export default {
   },
   mounted() {
     $(function () {
-       let windowW = $(window).width()
-       if(windowW < 768){
-        let timerId = setTimeout(()=>{
-           alert('在小型设备上图片显示效果不佳，请在电脑打开！')
-           clearTimeout(timerId)
-         },500)
-       }
+      //  let windowW = $(window).width()
+      //  if(windowW < 768){
+      //   let timerId = setTimeout(()=>{
+      //      alert('在小型设备上图片显示效果不佳，请在电脑打开！')
+      //      clearTimeout(timerId)
+      //    },500)
+      //  }
       //圖片懶加載
       var num = $(".photography").find("img").length; // 获取img 标签的数量
       var img = $(".photography").find("img"); // 找到所有的img标签 数组集合[ , , ]

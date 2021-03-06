@@ -15,7 +15,7 @@
                   <h2 class="mycv">My CV</h2>
                   <p>A PDF version of my CV can be downloaded <ins><a href="/PDF/XIE Yuxiang-CV.pdf" download="/static/PDF/XIE Yuxiang-CV.pdf" >HERE</a></ins></p>
                   <div class="cv-details">
-                        <iframe src="/pdf-html/XIEYuxiang_CV.pdf.html" border="0" width="100%" height="1056px" frameborder="no" marginwidth="0" marginheight="0" scrolling="no" allowtransparency="yes"></iframe>
+                        <iframe src="/pdf-html/XIEYuxiang_CV.pdf.html" border="0" width="100%" height="1056px" frameborder="no" marginwidth="0" marginheight="0"  allowtransparency="yes"></iframe>
 
 
                   </div><!--cv-->
