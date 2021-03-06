@@ -1,32 +1,7 @@
 <template>
   <div>
-    <div class="nav navbar-default navbar-fixed-top navbar-inverse">
-      <div class="navbar-header">
-        <a href="/" class="navbar-brand">
-          <span>XIE Yuxiang</span>
-        </a>
-        <button
-          class="navbar-toggle"
-          data-toggle="collapse"
-          data-target="#navc"
-        >
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-        </button>
-      </div>
-      <!-- navbar-header -->
-      <div class="collapse navbar-collapse navbar-right" id="navc">
-        <ul class="nav navbar-nav" id="nav">
-          <li class="navActive"><a href="/home">About me</a></li>
-          <!-- <li><a href="/awards">Awards</a></li> -->
-          <li><a href="/publications">Publications and Papers</a></li>
-          <li><a href="/portfolio">Portfolio</a></li>
-        </ul>
-      </div>
-    </div>
+    <Nav />
     <!--nav-->
-    <div class="clearfix"></div>
     <div id="content_box">
       <div class="row">
         <div class="col-xs-12 col-sm-4 col-md-4">
@@ -88,20 +63,20 @@
         </div>
       </div>
     </div>
-    <footer class="footer">
-      <p>
-        Copyright © 2019 - 2020 <a href="/">xie-yuxiang.com</a> All Rights
-        Reserved.
-        <a href="http://www.beian.miit.gov.cn/" target="_blank"
-          >粤ICP备19142068号</a
-        >
-      </p>
-    </footer>
+    <Footer />
   </div>
 </template>
 
 <script>
-export default {};
+import Nav from '../components/nav'
+import Footer from '../components/footer'
+export default {
+  name:'Index',
+  components:{
+    Nav,
+    Footer
+  }
+};
 </script>
 
 <style>

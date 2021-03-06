@@ -1,0 +1,266 @@
+<template>
+  <div class="page">
+    <Nav />
+    <div id="content_box">
+      <div class="row">
+        <div class="col-xs-12 col-sm-4 col-md-4 leftnav">
+          <ul class="content-nav">
+            <li><a href="/cv">CV</a></li>
+            <li><a href="/photograph">Photograph</a></li>
+            <!-- <li><a href="#">Contact</a></li> -->
+          </ul>
+        </div>
+        <!-- col-xs-12 -->
+        <div class="col-xs-12 col-sm-8 col-md-8 pic">
+          <div class="content-details">
+            <div class="details-classify">
+              <h2 class="pic-title">Activity photography</h2>
+              <div class="photography picrow1">
+                <img
+                  data-src="http://xie-picture.oss-cn-shenzhen.aliyuncs.com/%E7%BD%91%E7%AB%99%E5%9B%BE%E7%89%87/image%20%281%29.png"
+                  src=""
+                  class="img-responsive"
+                  alt="图片加载失败"
+                />
+                <img
+                  data-src="http://xie-picture.oss-cn-shenzhen.aliyuncs.com/%E7%BD%91%E7%AB%99%E5%9B%BE%E7%89%87/image%20%282%29.png"
+                  src=""
+                  class="img-responsive"
+                  alt="图片加载失败"
+                />
+                <img
+                  data-src="http://xie-picture.oss-cn-shenzhen.aliyuncs.com/%E7%BD%91%E7%AB%99%E5%9B%BE%E7%89%87/image%20%283%29.png"
+                  src=""
+                  class="img-responsive"
+                  alt="图片加载失败"
+                />
+              </div>
+              <div class="photography picrow2">
+                <img
+                  data-src="http://xie-picture.oss-cn-shenzhen.aliyuncs.com/%E7%BD%91%E7%AB%99%E5%9B%BE%E7%89%87/image%20%284%29.png"
+                  src=""
+                  class="img-responsive"
+                  alt="图片加载失败"
+                />
+                <img
+                  data-src="http://xie-picture.oss-cn-shenzhen.aliyuncs.com/%E7%BD%91%E7%AB%99%E5%9B%BE%E7%89%87/image%20%285%29.png"
+                  src=""
+                  class="img-responsive"
+                  alt="图片加载失败"
+                />
+              </div>
+            </div>
+            <!-- details-classify -->
+            <div class="details-classify">
+              <h2 class="pic-title">Travel Photography</h2>
+              <div class="photography picrow3">
+                <img
+                  data-src="http://xie-picture.oss-cn-shenzhen.aliyuncs.com/%E7%BD%91%E7%AB%99%E5%9B%BE%E7%89%87/image%20%286%29.png"
+                  src=""
+                  class="img-responsive"
+                  alt="图片加载失败"
+                />
+                <img
+                  data-src="http://xie-picture.oss-cn-shenzhen.aliyuncs.com/%E7%BD%91%E7%AB%99%E5%9B%BE%E7%89%87/image%20%287%29.png"
+                  src=""
+                  class="img-responsive"
+                  alt="图片加载失败"
+                />
+              </div>
+              <div class="photography picrow4">
+                <img
+                  data-src="http://xie-picture.oss-cn-shenzhen.aliyuncs.com/%E7%BD%91%E7%AB%99%E5%9B%BE%E7%89%87/image%20%288%29.png"
+                  src=""
+                  class="img-responsive"
+                  alt="图片加载失败"
+                />
+                <img
+                  data-src="http://xie-picture.oss-cn-shenzhen.aliyuncs.com/%E7%BD%91%E7%AB%99%E5%9B%BE%E7%89%87/image%20%289%29.png"
+                  src=""
+                  class="img-responsive"
+                  alt="图片加载失败"
+                />
+                <img
+                  data-src="http://xie-picture.oss-cn-shenzhen.aliyuncs.com/%E7%BD%91%E7%AB%99%E5%9B%BE%E7%89%87/image%20%2810%29.png"
+                  src=""
+                  class="img-responsive"
+                  alt="图片加载失败"
+                />
+              </div>
+            </div>
+            <!-- details-classify -->
+            <div class="details-classify">
+              <h2 class="pic-title">Musical evening Photography</h2>
+              <div class="photography picrow5">
+                <img
+                  data-src="http://xie-picture.oss-cn-shenzhen.aliyuncs.com/%E7%BD%91%E7%AB%99%E5%9B%BE%E7%89%87/image%20%2811%29.png"
+                  src=""
+                  class="img-responsive"
+                  alt="图片加载失败"
+                />
+                <img
+                  data-src="http://xie-picture.oss-cn-shenzhen.aliyuncs.com/%E7%BD%91%E7%AB%99%E5%9B%BE%E7%89%87/image%20%2812%29.png"
+                  src=""
+                  class="img-responsive"
+                  alt="图片加载失败"
+                />
+                <img
+                  data-src="http://xie-picture.oss-cn-shenzhen.aliyuncs.com/%E7%BD%91%E7%AB%99%E5%9B%BE%E7%89%87/image%20%2813%29.png"
+                  src=""
+                  class="img-responsive"
+                  alt="图片加载失败"
+                />
+              </div>
+              <div class="photography picrow6">
+                <img
+                  data-src="http://xie-picture.oss-cn-shenzhen.aliyuncs.com/%E7%BD%91%E7%AB%99%E5%9B%BE%E7%89%87/image%20%2814%29.png"
+                  src=""
+                  class="img-responsive"
+                  alt="图片加载失败"
+                />
+                <img
+                  data-src="http://xie-picture.oss-cn-shenzhen.aliyuncs.com/%E7%BD%91%E7%AB%99%E5%9B%BE%E7%89%87/image%20%2815%29.png"
+                  src=""
+                  class="img-responsive"
+                  alt="图片加载失败"
+                />
+              </div>
+            </div>
+            <!-- details-classify -->
+          </div>
+          <!-- content-details -->
+        </div>
+        <!-- col-xs-12 -->
+      </div>
+      <!-- row -->
+    </div>
+    <!-- content_box -->
+    <Footer />
+  </div>
+</template>
+
+<script>
+import Nav from "../components/nav";
+import Footer from "../components/footer";
+export default {
+  name: "Photograph",
+  components: {
+    Nav,
+    Footer,
+  },
+  mounted() {
+    $(function () {
+      //圖片懶加載
+      var num = $(".photography").find("img").length; // 获取img 标签的数量
+      var img = $(".photography").find("img"); // 找到所有的img标签 数组集合[ , , ]
+      var n = 0; // 存储图片加载到的位置，避免每次都从第一张图片开始遍历
+      lazyload(); // 页面载入完毕，调用lazyload()方法 加载可是区域内的图片
+      window.onscroll = lazyload; // 滑动事件，把 lazyload方法 交给window.onscroll，当页面滑动会执行 lazyload方法
+
+      function lazyload() {
+        //监听页面滚动事件
+        var seeHeight = document.documentElement.clientHeight; //可见区域高度
+        var scrollTop =
+          document.documentElement.scrollTop || document.body.scrollTop; //滚动条距离顶部高度
+        for (var i = n; i < num; i++) {
+          // img[i].offsetTop 距离页面顶部的高度
+
+          if (img[i].offsetTop < seeHeight + scrollTop) {
+            // 进入可视区域内
+
+            if (img[i].getAttribute("src") == "") {
+              img[i].src = img[i].getAttribute("data-src");
+            }
+            n = i + 1;
+          }
+        }
+      }
+      //对image(大)小做适应
+      let boxwidth = $(".photography").width();
+      let picheight1 = (420 * boxwidth) / 1175 + "px";
+      let picheight2 = (395 * boxwidth) / 1170 + "px";
+      let picheight3 = (621 * boxwidth) / 1340 + "px";
+      let picheight4 = (372 * boxwidth) / 1347 + "px";
+      let picheight5 = (500 * boxwidth) / 1380 + "px";
+      let picheight6 = (463 * boxwidth) / 1380 + "px";
+      $(".picrow1").find("img").height(picheight1);
+      $(".picrow2").find("img").height(picheight2);
+      $(".picrow3").find("img").height(picheight3);
+      $(".picrow4").find("img").height(picheight4);
+      $(".picrow5").find("img").height(picheight5);
+      $(".picrow6").find("img").height(picheight6);
+      let pic = $(".pic").width() + 88 + "px";
+      $(".content-nav").css("right", pic);
+      $(window).resize(function () {
+        let boxwidth = $(".photography").width();
+        let picheight1 = (420 * boxwidth) / 1175 + "px";
+        $(".picrow1").find("img").height(picheight1);
+        let picheight2 = (395 * boxwidth) / 1168 + "px";
+        $(".picrow2").find("img").height(picheight2);
+        let picheight3 = (621 * boxwidth) / 1340 + "px";
+        $(".picrow3").find("img").height(picheight3);
+        let picheight4 = (372 * boxwidth) / 1347 + "px";
+        $(".picrow4").find("img").height(picheight4);
+        let picheight5 = (500 * boxwidth) / 1385 + "px";
+        $(".picrow5").find("img").height(picheight5);
+        let picheight6 = (463 * boxwidth) / 1380 + "px";
+        $(".picrow6").find("img").height(picheight6);
+      });
+    });
+  },
+};
+</script>
+<style scoped>
+.page{
+    min-height: 100%;
+    position: relative;
+}
+.details-classify {
+  margin-bottom: 40px;
+}
+.pic-title {
+  font-size: 2.4em;
+  line-height: 1.25;
+  margin: 0.4em 0;
+  font-weight: bold;
+  /* font-family: "Cambo", "Times New Roman", serif; */
+  text-align: center;
+}
+.photography {
+  width: 100%;
+  display: flex;
+}
+.photography img {
+  height: 315px;
+  display: inline-block;
+  min-height: 100px;
+}
+.content-nav li:last-child a {
+  background-color: #0d66b7;
+}
+.leftnav {
+  position: relative;
+}
+.content-nav {
+  position: fixed;
+  left: 200px;
+}
+.content-details {
+  margin-bottom: 20px;
+}
+.photography {
+  overflow: hidden;
+}
+.footer {
+  margin-top: 50px;
+}
+@media (max-width: 768px) {
+  .photography img {
+    height: 100px;
+  }
+  .content-nav {
+    position: relative;
+    left: 0;
+  }
+}
+</style>
