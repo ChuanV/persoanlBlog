@@ -17,8 +17,7 @@
           </div>
           <div class="panel-body">
             <div class="media">
-              <div class="media-left media-top">
-                <!-- <iframe frameborder="0" src="//player.bilibili.com/player.html?aid=42818575&cid=75090900&page=1" allowfullscreen="true"> </iframe> -->
+              <div class="media-left media-top min-img">
                 <a
                   href="https://v.qq.com/x/page/y3006hpbew6.html"
                   target="_blank"
@@ -31,6 +30,18 @@
                 </a>
               </div>
               <div class="media-body">
+                <div class="min-display">
+                  <a
+                    href="https://v.qq.com/x/page/y3006hpbew6.html"
+                    target="_blank"
+                    class="videos-img"
+                  >
+                    <img
+                      src="/img/video-img/vanishing_ mermaid.jpg"
+                      alt="消逝的美人鱼"
+                    />
+                  </a>
+                </div>
                 <h4 class="media-heading"><i>The Last Mermaid</i></h4>
                 <p style="text-indent: 2em">
                   In this animation, I use the 3D production technology and
@@ -56,7 +67,7 @@
           </div>
           <div class="panel-body">
             <div class="media">
-              <div class="media-left media-top">
+              <div class="media-left media-top min-img">
                 <!-- <iframe frameborder="0" src="https://v.qq.com/txp/iframe/player.html?vid=y3006hpbew6" allowFullScreen="true"></iframe> -->
                 <a
                   href="https://www.bilibili.com/video/av42818575/"
@@ -92,7 +103,7 @@
           </div>
           <div class="panel-body">
             <div class="media">
-              <div class="media-left media-top">
+              <div class="media-left media-top min-img">
                 <!-- <iframe frameborder="0" src="https://v.qq.com/txp/iframe/player.html?vid=y3006hpbew6" allowFullScreen="true"></iframe> -->
                 <a
                   href="https://www.bilibili.com/video/av76357861"
@@ -221,6 +232,31 @@ export default {
 </script>
 
 <style>
+@media (max-width: 768px) {
+  .min-img {
+    display: block;
+    margin-block: 10px;
+  }
+}
+.media a[class="videos-img"] {
+    position: relative;
+}
+.media a[class="videos-img"]::before{
+    content: "";
+    width: 40px;
+    height: 40px;
+    background-image:url(/img/play_icon80.png);
+    background-repeat:no-repeat;
+    background-size: cover;
+    z-index: 999;
+    position: absolute;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+}
+.min-display{
+    display: none;
+}
 .page {
   min-height: 100%;
   position: relative;

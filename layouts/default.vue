@@ -23,9 +23,13 @@ html {
     font-feature-settings: "kern", "liga", "clig", "calt";
     overflow-x: hidden;
 }
+
 p{
-    letter-spacing:-1px;
-    word-spacing:-3px;
+    letter-spacing:0.4px;
+    word-spacing:-1px;
+}
+li{
+    list-style: none;
 }
 body{
   width: 100%;

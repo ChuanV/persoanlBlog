@@ -1,21 +1,22 @@
 export default {
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: 'personalBlog',
+    title: 'XieYuXiang',
     htmlAttrs: {
       lang: 'en'
     },
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: '' }
+      { hid: 'description', name: 'description', content: 'XIE Yuxiang' },
+      { name: 'description', content: '谢雨湘的个人网站' }
     ],
     script: [
       {src: 'https://cdn.bootcss.com/jquery/2.1.1/jquery.min.js'},
       {src: 'https://cdn.bootcss.com/twitter-bootstrap/3.3.7/js/bootstrap.min.js'}
     ],
     link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
+      // { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
       { rel: 'stylesheet', href: '/index.css' },
       { rel: 'stylesheet', href: 'https://cdn.bootcss.com/twitter-bootstrap/3.3.7/css/bootstrap.min.css' }
     ]
