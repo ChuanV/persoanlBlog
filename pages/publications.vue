@@ -17,8 +17,8 @@
                     <p class="content-title"><i>The influence and thinking of artificial intelligence on journalism, Research on Transmission Competence</i> 2019（09）: 243</p>
                     <p style="text-indent: 2em;">I published a paper entitled The Influence and Thinking of Artificial Intelligence on Journalism after studying the Topic Selection and Writing of Thesis in my junior year. Nowadays, artificial intelligence has been widely used in various industries in society. Journalism is also further integrating with artificial intelligence technology. From my point of view, artificial intelligence can save us a lot of resources, especially in the digital media industry, which has a great prospect and potential shortly soon. In this paper, I explore more details about how AI influence Journalism and figure out the most critical factor.</p>
                     <div class="d-or-b">
-                        <a href="/static/PDF/AI.pdf" target="blank" download="/static/PDF/AI.pdf">PDF</a>
-                        <a href="/static/PDF/AI.pdf" target="blank">Slides</a>
+                        <a href="/PDF/AI.pdf" target="blank" download="/PDF/AI.pdf">PDF</a>
+                        <a href="/PDF/AI.pdf" target="blank">Slides</a>
                     </div>
                 </div><!--panel-body -->
             </div><!--panel -->
