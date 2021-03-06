@@ -3,7 +3,7 @@
     <Nav />
     <!--nav-->
      <div id="content_box" class="container">
-            <h1>Publications and Papers</h1>
+            <h1 >Publications and Papers</h1>
             <ul>
                 <li><a href="#publications-subjects">   1.Publications by Subjects</a></li>
                 <li><a href="#publications-news">    2.Pear Video News</a></li>

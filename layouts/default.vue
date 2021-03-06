@@ -47,5 +47,12 @@ body{
   margin: 0;
 }
 
-
+@media (max-width: 768px) {
+  .h1 ,h1{
+    font-size: 30px;
+  }
+  .h2,h2 {
+    font-size: 24px;
+  }
+}
 </style>
